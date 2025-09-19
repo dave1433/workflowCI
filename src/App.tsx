@@ -10,7 +10,7 @@ function App() {
     <Layout>
       <WelcomeHero></WelcomeHero>
       <div className="divider"></div>
-      <PostList posts={posts}></PostList>
+      <PostList posts ={posts} />
     </Layout>
   );
 }
